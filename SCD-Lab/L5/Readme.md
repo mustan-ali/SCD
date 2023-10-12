@@ -16,11 +16,11 @@ activate
 ```
 
 ```
-python
+pip install django
 ```
 
 ```
-pip install django
+python
 ```
 
 ```
