@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    {{std}}
+
+    <table>
+        <tr>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Program</th>
+            <th>Batch</th>
+        </tr>
+        {% for std in std %}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{std.name}}</td>
+            <td>{{std.age}}</td>
+            <td>{{std.program}}</td>
+            <td>{{std.batch}}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+</body>
+
+</html>
