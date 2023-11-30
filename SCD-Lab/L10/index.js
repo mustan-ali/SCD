@@ -26,7 +26,7 @@ app.get('/user/:id', (req, res) => {
 app.post('/addUser', (req, res) => {
 
     const body = req.body;
-    users.push({ ...body, id: users.length + 1 });
+    users.push({ id: users.length + 1, ...body });
 
     fs.writeFile('./MOCK_DATA.json', JSON.stringify(users), (err, data) => {
         if (err) {
