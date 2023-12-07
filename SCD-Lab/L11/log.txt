@@ -1,0 +1,5 @@
+Thu Dec 07 2023 13:04:43 GMT+0500 (Pakistan Standard Time) : Request Method: GET : Request Path: /allUsers 
+Thu Dec 07 2023 13:05:18 GMT+0500 (Pakistan Standard Time) : Request Method: GET : Request Path: /user/105 
+Thu Dec 07 2023 13:05:25 GMT+0500 (Pakistan Standard Time) : Request Method: GET : Request Path: / 
+Thu Dec 07 2023 13:07:48 GMT+0500 (Pakistan Standard Time) : Request Method: POST : Request Path: /addUser 
+Thu Dec 07 2023 13:11:01 GMT+0500 (Pakistan Standard Time) : Request Method: DELETE : Request Path: /delete/999 
