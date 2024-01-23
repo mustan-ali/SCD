@@ -40,7 +40,7 @@ app.get('/allUser', async (req, res) => {
         res.json(users)
     }
     catch (err) {
-        res.send(400).send('Invalid Request')
+        res.status(400).send('Invalid Request')
     }
 })
 
@@ -52,7 +52,7 @@ app.get('/user/:id', async (req, res) => {
         res.json(user)
     }
     catch (err) {
-        res.send(400).send('Invalid Request')
+        res.status(400).send('Invalid Request')
     }
 })
 
